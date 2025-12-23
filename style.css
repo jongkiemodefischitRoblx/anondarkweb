@@ -1,0 +1,86 @@
+body {
+  background: #0a0a0a;
+  color: #00ffcc;
+  font-family: monospace;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.tagline {
+  text-align: center;
+  color: #888;
+}
+
+.form-box {
+  background: #111;
+  padding: 15px;
+  border: 1px solid #00ffcc;
+  max-width: 420px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 6px 0;
+  padding: 8px;
+  background: #000;
+  color: #00ffcc;
+  border: 1px solid #00ffcc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #00ffcc;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00ccaa;
+}
+
+.produk-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #111;
+  border: 1px solid #00ffcc;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.buy {
+  margin-top: 10px;
+  background: crimson;
+  color: white;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+footer a {
+  color: #00ffcc;
+  text-decoration: none;
+}
+
+.policy {
+  background: #111;
+  border: 1px solid #00ffcc;
+  padding: 15px;
+  max-width: 600px;
+  margin: auto;
+}
